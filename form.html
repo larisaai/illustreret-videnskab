@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="checkmarks">
+        <p>&#10003; 14 dages fortrydelsesret</p>
+        <p>&#10003; Ingen binding</p>
+    </div>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="img/ill-vid.png" alt=""></a>
+        </div>
+
+        <div class="container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+    </div>
+
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="#">Anmeldelser</a></li>
+            <li><a href="#">Andre produkter</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="mainContent">
+
+        <div class="backbtn">
+            <a href="index.html">&#8637; gå tilbage</a>
+        </div>
+
+        <div class="progressContainer">
+            <ul class="progressbar">
+                <li class="activeStep"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <h2>Valgt tilbud</h2>
+        <div class="valgtTilbud">
+            <div class="magasin">
+                <img class="firstmag" src="img/mini-magasin1.jpg" alt="minimag">
+                <img class="secondmag" src="img/mini-magasin2.jpg" alt="minimag">
+            </div>
+            <div class="plussign">
+                &#43;
+            </div>
+            <div class="powerbank">
+                <img src="img/powerbank4.png" alt="powerbank">
+            </div>
+        </div>
+        <div>
+            <h3>2 magasiner og en powerbank for 49,50kr.</h3>
+        </div>
+
+        <div class="facebookLogin">
+            <img src="img/facebook.png" alt="facebook">
+            <h2>Or</h2>
+        </div>
+
+        <div class="obligatorisk">
+            <p>Felter markeret med * er obligatoriske</p>
+        </div>
+        <form action="creditcard.html">
+            <div class="bigcontainer">
+
+                <div class="box">
+                    <input type="text" id="firstName" required>
+                    <span class="highlight"></span>
+                    <span class=""></span>
+                    <label for="firstName">Fornavn*</label>
+                </div>
+                <div class="box">
+                    <input type="text" id="lastName" required>
+                    <span class="highlight"></span>
+                    <span class=""></span>
+                    <label for="lastName">Efternavn*</label>
+                </div>
+
+                <div class="box">
+                    <input type="text" id="email" title="Brug venligst en email adresse." required>
+                    <span class="highlight"></span>
+                    <span class=""></span>
+                    <label for="email">Email*</label>
+                </div>
+                <div class="box">
+                    <input type="text" id="confirmEmail" required>
+                    <span class="highlight"></span>
+                    <span class=""></span>
+                    <label for="confirmEmail">Bekræft Email*</label>
+                </div>
+                <div class="box">
+                    <input type="text" id="phone" required>
+                    <span class="highlight"></span>
+                    <span class=""></span>
+                    <label for="phone">Telefon</label>
+                </div>
+
+
+
+                <div id="locationInfo">
+                    <div class="box">
+                        <input type="text" id="address" required>
+                        <span class="highlight"></span>
+                        <span class=""></span>
+                        <label for="address">Adresse*</label>
+                    </div>
+                    <div class="cityform">
+                        <div class="box" id="zipGroup">
+                            <input type="text" id="zipCode" required>
+                            <span class="highlight"></span>
+                            <span class=""></span>
+                            <label for="zipCode">Postnr.*</label>
+                        </div>
+                        <div class="box" id="city">
+                            <input type="text" id="cityBox" required>
+                            <span class="highlight"></span>
+                            <span class=""></span>
+                            <label for="city" id="cityLabel">By*</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <input class="betalingsform" type="submit" value="Vælg betalingsmetode">
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+    <footer>
+
+        <h4> Bonnier Publications International A/S</h4>
+
+        <div class="companyInfo">
+            Kundeservice postboks 413<br> 0900 København C<br> CVR. 977041066<br>
+            Telefon: 39 10 30 00<br></div>
+        <h4> Kundeservice program</h4>
+        <div class="program">
+            <div class=""> Man-tors:<br> Fredag:<br></div>
+            <div class=""> 9.00-16.00 <br> 9.00-14.30<br></div>
+        </div>
+        <br>
+        <div class="SoMe">
+            <img src="img/Facebook.svg" alt="facebook">
+            <img src="img/Intsagram.svg" alt="instagram">
+            <img src="img/YouTube.svg" alt="youtube">
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
